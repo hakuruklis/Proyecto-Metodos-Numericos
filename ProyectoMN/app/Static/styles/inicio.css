@@ -1,0 +1,74 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+.cuerpo{
+    opacity:0.95;
+    height:420px;
+    width:400px;
+    margin:auto;
+    background-color:blue;
+    border-radius: 90px 10px 90px 10px;
+    -moz-border-radius: 90px 10px 90px 10px;
+    -webkit-border-radius: 90px 10px 90px 10px;
+    -webkit-box-shadow: 10px 12px 47px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 47px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 12px 47px 0px rgba(0,0,0,0.75);
+}
+#boton{
+    height:50px;
+    width:175px;
+    border-radius:80px;
+    background-color:#64FE2E;
+    border: 2px solid #64FE2E;
+    position:absolute;
+    margin-top:30px;
+    margin-left:120px;
+    font-family:'Lato';
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:18px;
+}
+#boton:hover{
+    background-color:green;
+    font-size:20px;
+    border: 2px solid green;
+}
+#txt{
+    margin-left:120px;
+    margin-top:20px;
+}
+.encabezado{
+    opacity:0.9;
+    height:70px;
+    border:1px;
+    text-align:center;
+    font-family:'Lato';
+    border-radius:20px;
+    background-color:#FFFFFF;
+    padding:5px;
+}
+#letras{
+    font-family:'Lato';
+    color:#FFFFFF;
+    margin-left:70px;
+    padding-top: 10px;
+    font-size:18px;
+    font-weight:bold;
+}
+#option{
+    margin:auto;
+    margin-left:170px;
+}
+body{
+    height:800px;
+    background-image: url("uipimg1.jpg");
+    background-repeat: no-repeat;
+    background-position: -60px;
+    background-color:#A9D0F5;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border:none;
+}
+html{
+    background-color:#A9D0F5;
+}

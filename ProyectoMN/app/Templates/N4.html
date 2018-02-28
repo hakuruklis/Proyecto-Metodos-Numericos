@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Styles/style2.css') }}">
+
+</head>
+<body>
+<form action="/N4" method="post">
+<table>
+  <tr>
+  	<td>i</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+  	<td>x</td>
+    <td>{{ c11 }}</td>
+    <td>{{ c12 }}</td>
+    <td>{{ c13 }}</td>
+    <td>{{ c14 }}</td>
+    <td>{{ c15 }}</td>
+  </tr>
+  <tr>
+  	<td>y</td>
+    <td><input id="txt" type="text" name="21"/></td>
+    <td><input id="txt" type="text" name="22"/></td>
+    <td><input id="txt" type="text" name="23"/></td>
+    <td><input id="txt" type="text" name="24"/></td>
+    <td><input id="txt" type="text" name="25"/></td>
+  </tr>
+</table>
+  <p>h={{ h }}</p>
+  <br>
+  <select name="operacion">
+    <option value="Trapecio">Trapecio</option>
+    <option value="1/3">1/3 de Simpson</option>
+  </select>
+<p><input id="boton" type="submit" value="Resutado"></p>
+</form>
+</body>
+</html>
